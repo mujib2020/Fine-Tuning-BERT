@@ -24,10 +24,15 @@ pip install datasets
 pip install transformers
 
 from datasets import load_dataset
+
 from transformers import AutoTokenizer
+
 import tensorflow
+
 from transformers import TFAutoModelForSequenceClassification
+
 from tensorflow.keras.optimizers import Adam
+
 import matplotlib.pyplot as plt
 
-For rest of the section, please check the either **Fine_Tune_BERT_1_.ipynb** or **Fine_Tune_BERT_1_.py**
+**For rest of the section**, please check either **Fine_Tune_BERT_1_.ipynb** or **Fine_Tune_BERT_1_.py**
