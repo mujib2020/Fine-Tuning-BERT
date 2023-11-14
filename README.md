@@ -18,7 +18,9 @@ The tutorial covers all the steps needed to adapt the powerful BERT model to an 
 BERT (Bidirectional Encoder Representations from Transformers) is a powerful language representation model that has revolutionized the way machines understand human language.
 
 ### Setting up the environment and dependencies.
+
 pip install datasets
+
 pip install transformers
 
 from datasets import load_dataset
@@ -27,3 +29,5 @@ import tensorflow
 from transformers import TFAutoModelForSequenceClassification
 from tensorflow.keras.optimizers import Adam
 import matplotlib.pyplot as plt
+
+For rest of the section, please check the either **Fine_Tune_BERT_1_.ipynb** or **Fine_Tune_BERT_1_.py**
