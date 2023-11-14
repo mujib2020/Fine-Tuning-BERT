@@ -10,9 +10,9 @@ The tutorial covers all the steps needed to adapt the powerful BERT model to an 
 - Setting up the environment and dependencies.
 - Preparing the text dataset for fine-tuning.
 - Loading and configuring the pre-trained BERT model with Keras.
-- Training the model with your dataset.
-- Evaluating model performance on a test set.
-- Guidelines for further experimentation and fine-tuning.
+- Training the model with a dataset from Hugging face: https://huggingface.co/datasets/glue.
+- Evaluating model performance on a test set. (Note: the test set doesn't have the true label)
+- Analyze/Visualize the predictions on un seen test dataset. 
 
 ### Introduction to BERT and its advantages for NLP tasks:
 BERT (Bidirectional Encoder Representations from Transformers) is a powerful language representation model that has revolutionized the way machines understand human language.
